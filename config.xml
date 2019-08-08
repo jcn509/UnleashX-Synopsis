@@ -1,0 +1,96 @@
+<Unleashx>
+	<Settings>
+		<Preference>
+			<AbortOnError>Yes</AbortOnError>
+			<ContextMenu AllowItemEdit="Yes" AllowRecentList="Yes" AllowUninstall="Yes" LinkToSave="Yes" />
+			<Skin Path="F:\skins">GreenShapes - By Kthulu</Skin>
+			<VideoSettings EnableTextureCompression="Yes" FastRefresh="Yes" Soften="No" Use1080I="No" Use480P="Yes" Use720P="Yes" UsePAL60="No" Widescreen="Yes" />
+			<LiveUpdate AutoCheck="No" />
+			<AutoVideoMode MultiRegion="Off" UsePAL60="No">no</AutoVideoMode>
+			<Games AutoLaunch="No" />
+			<DVD AutoLaunch="No" />
+			<AudioCD AutoLaunch="No" />
+			<EnableDriveF>Yes</EnableDriveF>
+			<EnableDriveG>Yes</EnableDriveG>
+			<FanSpeed>2.00</FanSpeed>
+			<Use24HFormat>Yes</Use24HFormat>
+			<SNTP HTTP="Yes" Synchronize="Yes">143.210.16.201</SNTP>
+			<AutoSetTime>Yes</AutoSetTime>
+		</Preference>
+		<Network Enable="Yes" Type="DHCP">
+			<IP>192.168.1.21</IP>
+			<Subnet>255.255.255.0</Subnet>
+			<Gateway>0.0.0.0</Gateway>
+			<DNS1>0.0.0.0</DNS1>
+			<DNS2>0.0.0.0</DNS2>
+			<AutoDetect>Yes</AutoDetect>
+		</Network>
+		<FTP Enable="Yes">
+			<MaxUsers>5</MaxUsers>
+		</FTP>
+	</Settings>
+	<Menu>
+		<Item Action="LaunchDVD" AltIcon="F:\Dash Icons\Launch DVD.png">Launch Disc</Item>
+    <List AltIcon="F:\Dash Icons\XBOX Games.png" Sort="On" Text="Xbox Games"></List>
+		<List AltIcon="f:\dash icons\Emulators.png" Auto="On" Sort="On" Text="Emulators">
+			<Path>E:\Emulators</Path>
+			<Path>F:\Emulators</Path>
+			<Path>G:\Emulators</Path>
+		</List>
+		<List AltIcon="f:\dash icons\Homebrew Games.png" Auto="On" Sort="On" Text="Homebrew and PC ports">
+			<Path>E:\Homebrew</Path>
+			<Path>F:\Homebrew</Path>
+			<Path>G:\Homebrew</Path>
+		</List>
+		<List AltIcon="F:\Dash Icons\Applications.png" Auto="On" Sort="On" Text="Applications">
+			<Path>C:\Applications</Path>
+			<Path>E:\Applications</Path>
+			<Path>F:\Applications</Path>
+			<Path>G:\Applications</Path>
+			<Path>C:\Apps</Path>
+			<Path>E:\Apps</Path>
+			<Path>F:\Apps</Path>
+			<Path>G:\Apps</Path>
+		</List>
+		<List AltIcon="F:\Dash Icons\MS Dashboard.png" Auto="On" Sort="On" Text="Dashboards">
+			<Item Action="C:\xboxdash.xbe" AltIcon="f:\dash icons\MS Dashboard.png">MS Dashboard</Item>
+			<Path>E:\Dashboards</Path>
+			<Path>F:\Dashboards</Path>
+			<Path>G:\Dashboards</Path>
+		</List>
+		<List AltIcon="F:\Dash Icons\System.png" Auto="Off" Sort="Off" Text="System">
+			<Item Action="CopyDVD" AltIcon="F:\Dash Icons\Copy Game Disc.png">Copy DVD</Item>
+			<Item Action="Filemanager" AltIcon="F:\Dash Icons\File Manager.png">File Explorer</Item>
+			<Item Action="SavesManager" AltIcon="F:\Dash Icons\Game Saves Manager.png">Saves Manager</Item>
+			<Item Action="Settings" AltIcon="F:\Dash Icons\Settings.png">Settings</Item>
+			<Item Action="Skins" AltIcon="F:\Dash Icons\Skins.png">Skins</Item>
+      <List Auto="On" Sort="on" Text="Miscellaneous" AltIcon="F:\Dash Icons\Misc.png">
+				<List Batch="True" Sort="Off" Text="Clear Xbox Cache" AltIcon="F:\Dash Icons\Format Menu.png">
+					<Item Action="askuser" arg1="Clear CACHE">Clear XBOX CACHE?</Item>
+					<Item Action="copy" Arg1="E:\." Arg2="E:\CACHE" />
+					<Item Action="delete" Arg1="E:\CACHE" />
+					<Item Action="copy" Arg1="E:\." Arg2="E:\CACHE" />
+					<Item Action="Format" Arg1="X" />
+					<Item Action="Format" Arg1="Y" />
+					<Item Action="Format" Arg1="Z" />
+					<Item Action="MessageBox" Arg1="Complete">The CACHE has been cleared!</Item>
+				</List>
+				<List Sort="Off" Text="Network" AltIcon="F:\Dash Icons\FTP Options.png">
+					<Item Action="FTPStop" AltIcon="F:\Dash Icons\Stop FTP.png">Stop FTP Server</Item>
+					<Item Action="FTPStart" AltIcon="F:\Dash Icons\Start FTP.png">Start FTP Server</Item>
+					<Item Action="FTPReset" AltIcon="F:\Dash Icons\Reset FTP.png">Reset FTP Server</Item>
+					<Item Action="NETReset" AltIcon="F:\Dash Icons\Restart Network.png">Restart Network</Item>
+				</List>
+				<List Auto="On" Sort="Off" Text="Restart/Shutdown" AltIcon="F:\Dash Icons\Shutdown.png">
+					<Item Action="Restart" AltIcon="F:\Dash Icons\Reboot.png">Restart</Item>
+					<Item Action="Shutdown" AltIcon="F:\Dash Icons\Shutdown.png">Shutdown</Item>
+				</List>
+				<Item Action="SetClock" AltIcon="F:\Dash Icons\Clock Settings.png">Set Time/Date</Item>
+				<List Batch="True" Sort="off" Text="Tray Open/Close" AltIcon="F:\Dash Icons\Open DVD Tray.png">
+					<Item Action="TrayOpen" AltIcon="F:\Dash Icons\Open DVD Tray.png">Tray Open</Item>
+					<Item Action="TrayClose" AltIcon="F:\Dash Icons\Close DVD Tray.png">Tray Close</Item>
+				</List>
+			</List>
+		</List>
+	</Menu>
+</Unleashx>
