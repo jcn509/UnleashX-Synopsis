@@ -1,6 +1,8 @@
 # UnleashX-Synopsis
 Creates a game synopsis view similar to what is used in [XBMC4Gamers](XBMC4Gamers) in UnleashX. This script creates a new menu in UnleashX that includes preview videos, artwork, screenshots and game information. (It should be run whenever you have added/moved/deleted games from your Xbox.)
-[![Video showing what this script does](https://img.youtube.com/vi/Gyfij1mHMaw/0.jpg)](https://www.youtube.com/watch?v=Gyfij1mHMaw)
+
+## Video overview
+[![Video overview](http://img.youtube.com/vi/Gyfij1mHMaw/0.jpg)](http://www.youtube.com/watch?v=Gyfij1mHMaw "Video overview")
 
 ## Usage
 This script must be run from [XBMC4Gamers](XBMC4Gamers) after you have used the [XBMC4Gamers](XBMC4Gamers) artwork installer.
@@ -16,6 +18,6 @@ If there are any errors read the xbmc.log file in your XBMC4Gamers system folder
 [XBMC4Gamers]: https://github.com/Rocky5/XBMC4Gamers
 
 The features, description and preview icons are from these loctions:
-https://commons.wikimedia.org/wiki/File:Information_green.svg
-https://commons.wikimedia.org/wiki/File:Icon-notepad.svg
-https://commons.wikimedia.org/wiki/File:Pitivi_icon.png
+* https://commons.wikimedia.org/wiki/File:Information_green.svg
+* https://commons.wikimedia.org/wiki/File:Icon-notepad.svg
+* https://commons.wikimedia.org/wiki/File:Pitivi_icon.png
