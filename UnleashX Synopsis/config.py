@@ -7,7 +7,7 @@ PLAY_ICON = "F:\\Dash Icons\\play.png"
 # Set to None if you'd rather use the default save icon
 PREFFERED_ICON_FILE = "_resources\\artwork\\icon.png"
 
-# Note these things will be have any effect if they can actually be created
+# Note these things will only have any effect if they can actually be created
 # e.g. no video preview is created if there is no video file
 CREATE_SCREENSHOTS_FOLDER = True
 CREATE_ARTWORK_FOLDER = True
